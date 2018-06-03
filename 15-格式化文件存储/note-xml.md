@@ -134,7 +134,7 @@
         - 添加删除相应内容
     - minidom
         - minidom.parse(filename):加载读取的xml文件, filename也可以是xml代码
-        - doc.documentElement:获取xml文档对象，一个xml文件只有一个对于的文档对象
+        - doc.documentElement:获取xml文档对象，一个xml文件只有一个对于的文档对象,即根节点
         - node.getAttribute(attr_name):获取xml节点的属性值
         - node.getElementByTagName(tage_name)：得到一个节点对象集合
         - node.childNodes:得到所有孩子节点
